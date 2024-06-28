@@ -1,0 +1,29 @@
+.movie-grid {
+  margin-bottom: 2rem;
+}
+
+/* .movie-grid h4 {
+  color: black;
+} */
+
+.movie-row {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem 0;
+  /* text-decoration: none; */
+}
+
+.movie-item {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+
+.movie-img {
+  display: block;
+  max-height: 250px;
+  transition: transform 0.2s;
+}
+
+.movie-img:hover {
+  transform: scale(1.1);
+}
